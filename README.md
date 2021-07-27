@@ -74,7 +74,10 @@ Enjoy your freedom from spam!
 ## Contributing
 
 If you have a feature or bugfix to contribute which is directly related to organizing conversations
-by favorites, contacts, and recents, please open an issue here.
+by favorites, contacts, and recents, please open an issue here or in the forked repositories:
+
+* [Simple-SMS-Messenger fork](https://github.com/libertyio/Simple-SMS-Messenger)
+* [Simple-Commons fork](https://github.com/libertyio/Simple-Commons)
 
 Otherwise, if you have a core feature or bugfix to contribute, please try contributing it first in
 Simple Mobile Tools:
@@ -83,8 +86,7 @@ Simple Mobile Tools:
 * [Simple Commons](https://github.com/SimpleMobileTools/Simple-Commons)
 
 In general, we want to keep the fork updated with new features and bug fixes from the upstream
-repository. To make this easier, the repositories [Simple-SMS-Messenger fork](https://github.com/libertyio/Simple-SMS-Messenger)
-and [Simple-Commons fork](https://github.com/libertyio/Simple-Commons) do not make any changes to the `master` branch
+repository. To make this easier, the forked repositories do not make any changes to the `master` branch
 except for the `README.md` file.
 
 The `liberty_main` branch of each fork is where we keep the customizations and from which we build the customized app.
