@@ -79,13 +79,13 @@ Liberty Messenger uses the following permissions:
 
 * read your contacts
 
-The contacts permission is important for sorting messages into favorites, contacts, and recents.
+> The contacts permission is important for sorting messages into favorites, contacts, and recents.
 
 **Phone**
 
 * read phone status and identity
 
-Used to recognize your own phone number, and to keep track of conversations when the phone has
+> Used to recognize your own phone number, and to keep track of conversations when the phone has
 multiple SIM cards.
 
 **SMS**
@@ -95,7 +95,7 @@ multiple SIM cards.
 * receive text messages (SMS)
 * receive text messages (MMS)
 
-Android requires that only one app be used to receive SMS and MMS messages, so we need
+> Android requires that only one app be used to receive SMS and MMS messages, so we need
 all these permissions for the app to work because it has to be able to receive, view, and
 send SMS and MMS messages.
 
@@ -103,7 +103,7 @@ send SMS and MMS messages.
 
 * prevent phone from sleeping
 
-This is used to ensure messages are properly received and stored.
+> This is used to ensure messages are properly received and stored.
 
 ## Contributing
 
