@@ -1,6 +1,6 @@
 # Liberty Messenger
 
-Send and receive SMS organized into favorites, contacts, and recents.
+**Send and receive SMS organized into favorites, contacts, and recents.**
 
 <img alt="Logo" src="app_icon_96x96.png" width="96"/>
 
@@ -25,19 +25,51 @@ Liberty Messenger removes or disables the following features:
 The features to organize conversations and separate notifications by favorites, contacts,
 and recents were initially proposed in Simple SMS Messenger [issue #75](https://github.com/SimpleMobileTools/Simple-SMS-Messenger/issues/75)
 and contributed in [PR #87](https://github.com/SimpleMobileTools/Simple-SMS-Messenger/pull/87),
-but were rejected. A similar feature was also submitted to Google as feedback to the Messages
+but were rejected. A similar feature was also submitted to Google as feedback for the Messages
 app, but was ignored.
 
 However, we felt that the two features were useful and after using them privately for
 almost a year, decided that we should make them available to others. These feature are
-a great way to solve the spam problem:
+a great way to solve the spam problem so you can stay in touch with people you care about.
 
-When you have all messages from unknown contacts appear in the "recents" tab, and you turn off
-all notifications for messages in that category, then you have an SMS app that only notifies you
-when you receive messages from people you know. Spam texts no longer steal attention from you
-or crowd out texts from people you care about. When you're logging into a website and they send
-you a code via SMS, you already know to expect it so open the "recents" tab and wait for that
-message to arrive.
+Liberty Messenger is the first SMS app that enables you to organize your texts into
+favorites, contacts, and recents, preventing spam texts from stealing attention from you
+or crowding out texts from people you care about.
+
+## How to use Liberty Messenger
+
+The app shows three tabs at the top: favorites, contacts, and recents.
+
+Messages to and from people in your favorites will appear in the favorites tab.
+
+Messages to and from people in your contacts will appear in the contacts tab.
+Your favorites are also in your contacts so they will appear in the contacts tab also.
+
+All messages will appear in the recents tab. Messages from your favorites and contacts
+will appear in the recents tab, and also messages from unknown senders will appear there.
+
+You can choose different notification settings for favorites, contacts, and unknown senders.
+
+To customize notifications, open or return to the main activity with the list of conversations
+(what you see when you open the app), tap the three vertical dots
+in the top right corner to open the menu, tap "Settings", then "Customize notifications".
+
+If you don't want any notifications from unknown senders, you could simply uncheck the box
+next to "Unknowns". Alternatively, you could disable the sound and vibration, and choose
+whether or not they pop on screen, and whether you see a notification dot.
+
+By disabling or quieting notifications from unknown senders, you can easily ignore whatever
+spam arrives in the "recents" tab. If you're expecting a text with a temporary code, or you
+just met someone new and they are texting you their contact info, you can switch to the
+"recents" tab and find these texts at the top when you're looking for them.
+
+With the spam neutralized, there's no need to waste your time individually blocking all the
+telephone numbers of unknown senders. In fact, you shouldn't do that because eventually one
+of those telephone numbers might be assigned to a real person who will not be able to text you
+and you'll have another hassle at first with the miscommunication, and later when you try
+to find their number in your long list of blocked senders in order to unblock them.
+
+Enjoy your freedom from spam!
 
 ## Contributing
 
@@ -45,7 +77,10 @@ If you have a feature or bugfix to contribute which is directly related to organ
 by favorites, contacts, and recents, please open an issue here.
 
 Otherwise, if you have a core feature or bugfix to contribute, please try contributing it first in
-[Simple SMS Messenger](https://github.com/SimpleMobileTools/Simple-SMS-Messenger).
+Simple Mobile Tools:
+
+* [Simple SMS Messenger](https://github.com/SimpleMobileTools/Simple-SMS-Messenger)
+* [Simple Commons](https://github.com/SimpleMobileTools/Simple-Commons)
 
 In general, we want to keep the fork updated with new features and bug fixes from the upstream
 repository. To make this easier, the repositories [Simple-SMS-Messenger fork](https://github.com/libertyio/Simple-SMS-Messenger)
